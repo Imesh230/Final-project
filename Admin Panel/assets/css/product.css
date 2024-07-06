@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-products {
+    margin-bottom: 20px;
+}
+
+.add-products h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.add-products form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-products input[type="text"],
+.add-products textarea,
+.add-products select,
+.add-products input[type="file"],
+.add-products input[type="submit"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.add-products input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.add-products input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.add-products input[type="submit"]:active {
+    background-color: #3e8e41;
+}
+
+.add-products textarea {
+    height: 100px;
+}
+
+.add-products select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.add-products select:focus,
+.add-products input[type="text"]:focus,
+.add-products textarea:focus,
+.add-products input[type="file"]:focus,
+.add-products input[type="submit"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
